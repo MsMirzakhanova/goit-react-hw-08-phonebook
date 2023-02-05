@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import { ContactInputForm } from './Phonebook.styled';
-import { getContacts } from "../redux/selectors";
+import { getContacts } from "../../redux/contacts/selectors";
 import { useDispatch, useSelector } from 'react-redux';
-import {addContacts} from "../redux/thunk"
+import {addContacts} from "../../redux/contacts/thunk"
 
 
 const shortid = require('shortid');

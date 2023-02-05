@@ -3,7 +3,7 @@ import React from 'react';
 import { Label, Input } from './Filter.styled';
 
 import { useDispatch } from 'react-redux';
-import { setQuery } from "../redux/contacts.slice"
+import { setQuery } from "../../redux/contacts/contacts.slice"
 
 
 export const Filter = () => {
