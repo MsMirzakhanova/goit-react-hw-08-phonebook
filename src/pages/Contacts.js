@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { contactsAsyncThunk } from '../redux/contacts/thunk';
 import { selectIsLoading } from '../redux/contacts/selectors';
 
-export function Contacts() {
+const Contacts = () => {
 
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
@@ -32,4 +32,6 @@ export function Contacts() {
         <ContactsList/>
         </Container>
     );
-    }
+}
+    
+export default Contacts;
