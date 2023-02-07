@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>
-        Task manager welcome page{' '}
+        Welcome to Phonebook page{' '}
         <span role="img" aria-label="Greeting icon">
           💁‍♀️
         </span>

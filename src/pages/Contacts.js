@@ -23,7 +23,7 @@ const Contacts = () => {
     return (
       <Container>
         <Helmet>
-          <h1>Phonebook</h1>
+          <title>Phonebook</title>
           </Helmet>
         <PhonebookForm/>
         <h2>Contacts</h2>

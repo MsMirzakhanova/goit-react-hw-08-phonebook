@@ -16,7 +16,7 @@ export const ContactBtn = styled.button`
   border: none;
   &:hover,
   &:focus {
-    background-color: #188ce8;
+    background-color:  #f27e30;
   }
 `;
 

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import { ContactInputForm } from './Phonebook.styled';
+import { ContactInputForm, Button } from './Phonebook.styled';
 import { getContacts } from "../../redux/contacts/selectors";
 import { useDispatch, useSelector } from 'react-redux';
 import {addContacts} from "../../redux/contacts/thunk"
@@ -85,7 +85,7 @@ export function PhonebookForm () {
   title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
   required
 />
-        <button type="submi" id={buttonId}>Add contact</button>
+        <Button type="submi" id={buttonId}>Add contact</Button>
         <Toaster />
       </ContactInputForm>
       
